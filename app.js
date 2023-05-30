@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   );
 });
 
-const products = ["car", "apple", "android", "starbucks"];
+const products = ["car", "apple", "android", "starbucks","new"];
 
 app.get("/products", (req, res) => {
   res.json({ data: products });
